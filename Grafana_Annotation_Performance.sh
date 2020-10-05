@@ -11,15 +11,12 @@ printf "# Grafana Annotation Performaance Script\n"
 
 echo "Hello"
 # Variables.
-GRAFANA_HOST_IP_ADDRESS="192.168.1.188"
+GRAFANA_HOST_IP_ADDRESS="<insert_Gafana_Host_IP_Address_here>"
 GRAFANA_HOST_IP_PORT="3000"
-GRAFANA_API_KEY="eyJrIjoiVW5CcTc0cERheVphSzBPUjRKRnZOeDhJNFkzc2hoU0wiLCJuIjoiVG9ueXNfQVBJX0tleSIsImlkIjoxfQ=="
+GRAFANA_API_KEY="<insert_Grafana_API_KEY_here>"
 GRAFANA_ANNOTATIONS_COUNT="100"
 
-#curl -H "Authorization: Bearer eyJrIjoiVW5CcTc0cERheVphSzBPUjRKRnZOeDhJNFkzc2hoU0wiLCJuIjoiVG9ueXNfQVBJX0tleSIsImlkIjoxfQ==" http://192.168.1.188:3000/api/dashboards/home
-
 # Record START time.
-
 
 printf "Grafana_Performance_START_TIME_UTC=\`echo \$((\$(date +%%s%%N)/1000000))\`; export Grafana_Performance_START_TIME_UTC; echo \$Grafana_Performance_START_TIME_UTC\n\n"
 
