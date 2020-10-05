@@ -1,22 +1,24 @@
 #!/bin/bash
 
-# Grafana Annotation Performaance Script
+# Grafana Annotation Performance Script
 # Created by: Tony Casanova https://twitter.com/tonycasanova
 # Date: October 4, 2020
 
-# Purpose: Creata bulk Grafana annotations via API.
+# Purpose: Create
+ bulk Grafana annotations via API.
 # Used to measure how many annonations can be made per unit of time and large scale GUI testing.
 
 printf "# Grafana Annotation Performaance Script\n"
 
-echo "Hello"
-# Variables.
+# Variables
+
 GRAFANA_HOST_IP_ADDRESS="<insert_Gafana_Host_IP_Address_here>"
 GRAFANA_HOST_IP_PORT="3000"
 GRAFANA_API_KEY="<insert_Grafana_API_KEY_here>"
 GRAFANA_ANNOTATIONS_COUNT="100"
 
 # Record START time.
+
 
 printf "Grafana_Performance_START_TIME_UTC=\`echo \$((\$(date +%%s%%N)/1000000))\`; export Grafana_Performance_START_TIME_UTC; echo \$Grafana_Performance_START_TIME_UTC\n\n"
 
