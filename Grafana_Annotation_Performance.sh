@@ -4,8 +4,7 @@
 # Created by: Tony Casanova https://twitter.com/tonycasanova
 # Date: October 4, 2020
 
-# Purpose: Create
- bulk Grafana annotations via API.
+# Purpose: Create bulk Grafana annotations via API.
 # Used to measure how many annonations can be made per unit of time and large scale GUI testing.
 
 printf "# Grafana Annotation Performaance Script\n"
