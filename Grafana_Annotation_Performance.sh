@@ -5,9 +5,9 @@
 # Date: October 4, 2020
 
 # Purpose: Create bulk Grafana annotations via API.
-# Used to measure how many annonations can be made per unit of time and large scale GUI testing.
+# Used to measure how many annotations can be made per unit of time and large scale GUI testing.
 
-printf "# Grafana Annotation Performaance Script\n"
+printf "# Grafana Annotation Performance Script\n"
 
 # Variables
 
